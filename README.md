@@ -12,11 +12,11 @@ Do not use this software on devices or networks you do not own or have explicit 
 
 ## Setup
 1. Install dependencies:
-'pip install -r requirements.txt'
+`pip install -r requirements.txt`
 
 
 2. Generate your encryption key:
-'python -c "import encryptor; encryptor.generate_key()" '
+`python -c "import encryptor; encryptor.generate_key()" `
 
 
 3. Edit `mailer.py` with your own Gmail + app password.
