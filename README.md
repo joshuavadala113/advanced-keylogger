@@ -6,28 +6,30 @@ Do not use this software on devices or networks you do not own or have explicit 
 
 ## Features
 - Global keystroke capture
-- Encrypted logging (AES)
-- Email log exfiltration
+- Plaintext log file generation
+- Lightweight and simple
 - Stealth mode for demonstration
 
 ## Setup
 
-**Pre-steps (recommended):**
+1. Create and activate a Python virtual environment:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
 
-0.1. Create a Python virtual environment:  
-`python -m venv venv`
+2. Install required dependency:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-0.2. Activate the virtual environment:  
-- On Windows: `venv\Scripts\activate`  
-- On macOS/Linux: `source venv/bin/activate`
+3. Run the keylogger:
+    ```bash
+    python3 keylogger.py
+    ```
 
-1. Install dependencies:  
-`pip install -r requirements.txt`
+The logs will be saved in `log.txt` in plain text format.
 
-2. Run the Program:  
-`python3 keylogger.py`
-
-3. Open `log.txt` and see the data typed in.
 
 ## Ethical Use Only
 You **may not** use this code for:
