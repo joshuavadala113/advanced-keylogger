@@ -1,4 +1,4 @@
-# Advanced Keylogger (For Educational Purposes Only)
+# Simple Keylogger (For Educational Purposes Only)
 
 ⚠️ **DISCLAIMER**  
 This keylogger is designed purely for cybersecurity **education and ethical testing only**.  
