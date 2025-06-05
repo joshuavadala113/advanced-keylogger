@@ -11,13 +11,21 @@ Do not use this software on devices or networks you do not own or have explicit 
 - Stealth mode for demonstration
 
 ## Setup
-1. Install dependencies:
+
+**Pre-steps (recommended):**
+
+0.1. Create a Python virtual environment:  
+`python -m venv venv`
+
+0.2. Activate the virtual environment:  
+- On Windows: `venv\Scripts\activate`  
+- On macOS/Linux: `source venv/bin/activate`
+
+1. Install dependencies:  
 `pip install -r requirements.txt`
 
-
-2. Generate your encryption key:
-`python -c "import encryptor; encryptor.generate_key()" `
-
+2. Generate your encryption key:  
+`python -c "import encryptor; encryptor.generate_key()"`
 
 3. Edit `mailer.py` with your own Gmail + app password.
 
