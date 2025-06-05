@@ -24,10 +24,10 @@ Do not use this software on devices or networks you do not own or have explicit 
 1. Install dependencies:  
 `pip install -r requirements.txt`
 
-2. Generate your encryption key:  
-`python -c "import encryptor; encryptor.generate_key()"`
+2. Run the Program:  
+`python3 keylogger.py`
 
-3. Edit `mailer.py` with your own Gmail + app password.
+3. Open `log.txt` and see the data typed in.
 
 ## Ethical Use Only
 You **may not** use this code for:
